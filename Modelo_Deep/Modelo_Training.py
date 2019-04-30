@@ -187,7 +187,7 @@ modeloJugada.add(tf.keras.layers.Dense(8888, input_shape = (64,), activation = t
 modeloJugada.add(tf.keras.layers.Dense(4096, activation = tf.nn.relu))
 modeloJugada.add(tf.keras.layers.Dense(4096, activation = tf.nn.relu))
 modeloJugada.add(tf.keras.layers.Dense(4096, activation = tf.nn.relu))
-modeloJugada.add(tf.keras.layers.Dense(8888))
+modeloJugada.add(tf.keras.layers.Dense(8888, activation = "softmax"))
 
 
 # In[22]:
