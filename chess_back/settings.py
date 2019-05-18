@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'modelo1',
     'rest_framework',
     'livesync',
-    'django.contrib.staticfiles',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True

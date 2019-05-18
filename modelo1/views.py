@@ -25,7 +25,7 @@ class JugadaList(generics.ListCreateAPIView):
 			return 'g'
 		if int(number) == 8:
 			return 'h'
-	model = load('C:/Users/s112e1/Desktop/Chess_back/modelo1/modelo.joblib')
+	model = load('C:/Users/David Acevedo/Desktop/chess_back/Chess_back_/modelo1/modelo.joblib')
 	vectorTablero = np.zeros((1, 64))
 	querySetTablero = Tablero.objects.all()
 	stringTablero = str(querySetTablero.values_list('posicion', flat = True))
